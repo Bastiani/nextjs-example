@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node server.js --inspect",
     "build": "./node_modules/.bin/next build",
-    "start": "./node_modules/.bin/next start -p 8000"
+    "start": "NODE_ENV=production node server.js"
   },
   "keywords": [],
   "author": "Rafael Bastiani <rafacdb@gmail.com> (https://rafaelbastiani.com/)",
