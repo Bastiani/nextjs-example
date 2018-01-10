@@ -14,7 +14,7 @@ app
 
     router.get('post', '/p/:id', async (ctx) => {
       const actualPage = '/post';
-      const queryParams = { id: ctx.params.id };
+      const queryParams = { title: ctx.params.id };
       console.log(`===== ${queryParams}`);
       await app.render(ctx.req, ctx.res, actualPage, queryParams);
     });
