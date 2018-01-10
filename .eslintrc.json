@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "no-unused-expressions": ["error", { "allowTernary": true }]
+  },
+  "globals": {
+    "document": false
+  }
+}
